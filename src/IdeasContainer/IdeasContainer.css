@@ -1,0 +1,8 @@
+.ideas-container {
+  height: 32rem;
+  width: 95%;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 5px;
+  justify-content: center;
+}

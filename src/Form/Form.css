@@ -1,0 +1,32 @@
+.form-wrapper {
+  height: 10rem;
+  width: 40%;
+  display: flex;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+
+.title,
+.description {
+  height: 2rem;
+  width: 25rem;
+  border: none;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.submit-button {
+  width: 20rem;
+  height: 2rem;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(7, 32, 80);
+  color: #fff;
+  font-size: 1em;
+}

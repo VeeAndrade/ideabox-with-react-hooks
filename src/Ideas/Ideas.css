@@ -1,0 +1,26 @@
+.idea-box {
+  border: solid 3px rgb(7, 32, 80);
+  height: 15rem;
+  width: 14rem;
+  background-color: rgb(213, 217, 219);
+  border-radius: 3px;
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.idea-title,
+.idea-description {
+  display: flex;
+  align-self: center;
+}
+
+.delete-button {
+  height: 2rem;
+  width: 10rem;
+  background-color: rgb(7, 32, 80);
+  color: #fff;
+  border-radius: 3px;
+  font-size: 1em;
+}
